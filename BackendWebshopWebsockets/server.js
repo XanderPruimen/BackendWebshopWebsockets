@@ -28,22 +28,22 @@ console.log(message.toString())
             }
             if(message == "1"){
                 client.send(
-                "Mustang uit 1966 is een mooie auto"
+                "Ik wil voer bestellen"
                 );
             }
             if(message == "2"){
                 client.send(
-                "If you don't think Mustangs are nice cars. You are on the wrong site!"
+                "We got a lot of food for your Companion!"
                 );
             }
             if(message == "3"){
                 client.send(
-                "Mustang?"
+                "Medicines?"
                 );
             }
             if(message == "4"){
                 client.send(
-                "Do you want a Mustang?"
+                "Do you need medicines?"
                 );
             }
         

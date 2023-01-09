@@ -27,7 +27,7 @@ jobs:
       runs-on: ubuntu-latest
 #       defaults:
 #         run:
-#           working-directory: 'CarPartsOnline'
+#           working-directory: 'BackendWebshopWebsockets'
       steps:
         -
           name: Set up QEMU
@@ -48,4 +48,4 @@ jobs:
           with:
             file: ./Dockerfile
             push: true
-            tags: stanvb/carpartsonline-websockets:latest
+            tags: xanderpluimert/backendwebshopwebsockets:latest

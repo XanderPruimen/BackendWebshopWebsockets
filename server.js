@@ -5,7 +5,7 @@ s.on('connection', function(ws){
     ws.on('message', function(message){
 console.log(message.toString())
        // message = JSON.parse(message);
-
+        console.log("Client just Connected!")
         if(message.type == "message") {
             ws.personName = message.data;
         }
@@ -19,7 +19,7 @@ console.log(message.toString())
             console.log(client)
             console.log(message.toString())
             let bericht = message.toString()
-            if(message == "Hallo" , message == "Hi", message == "Hey"){
+            if(message == "Hey"){
                 client.send(
                     
                   
